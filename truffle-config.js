@@ -2,8 +2,8 @@
 // const HDWalletProvider = require("truffle-hdwallet-provider");
 const PrivateKeyProvider = require("truffle-privatekey-provider");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-// var privateKey = "82887986df9d5e92e22a77b04541fd6dba7ea309efd264b0200ed579fb7a4b85";
-var privateKey = "29d7dcc652a635703e743dc9a21bdda839cf500ad13079030eed01a731fdecb2"; //live
+// var privateKey = "";
+var privateKey = ""; //live
 module.exports = {
   networks: {
     ropsten: {
@@ -71,9 +71,9 @@ module.exports = {
     'truffle-plugin-verify'
   ],
   api_keys: {
-    etherscan: 'R2XXX48PYNAQ3XCKFTHD9RDHSYB3JKIT64',
-    bscscan: "VZCHXEMUVYEQ4QZV7D8UUJXAY881DCSMAD",
-    polygonscan:"HEUBWBGGEDBJIKU38GUGFU8UNRYRN1SVT1",
-    ftmscan: "MTVBN3KAA9A2QEICY9P4ETDSUSN1XCT71Z"
+    etherscan: '',
+    bscscan: "",
+    polygonscan:"",
+    ftmscan: ""
   },
 };
