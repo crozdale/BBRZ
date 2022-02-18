@@ -3,6 +3,7 @@
 const PrivateKeyProvider = require("truffle-privatekey-provider");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 // var privateKey = "";
+
 var privateKey = ""; //live
 module.exports = {
   networks: {
